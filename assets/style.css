@@ -38,7 +38,7 @@ body {
 
 [class^="container"] {
     background-color: bisque;
-    padding: 2rem 1rem;
+    padding: 2% 1%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -67,5 +67,5 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 2% 1%;
 }
