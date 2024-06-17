@@ -13,7 +13,7 @@ body {
 
 .body {
     display: grid;
-    grid-template: 150px 1fr 200px / 1fr 300px;
+    grid-template: 15% 1fr 20% / 1fr 30%;
 }
 
 .header {
@@ -25,11 +25,11 @@ body {
 }
 
 .main {
-    background-color: beige;
+    background-color: #fff8e3;
     display: grid;
-    grid-template: 1fr 100px 100px / 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
+    grid-template: 1fr 10% 10% / 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .main__content {
@@ -38,7 +38,7 @@ body {
 
 [class^="container"] {
     background-color: bisque;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -49,23 +49,23 @@ body {
 }
 
 .aside {
-    background-color: aquamarine;
-    padding: 10px;
+    background-color: #ddeccb;
+    padding: 1rem;
 }
 
 .footer {
-    background-color: grey;
+    background-color: #e0e0e0;
     grid-column: span 2;
     display: grid;
     grid-template: 1fr / repeat(4, 1fr);
-    gap: 10px;
-    padding: 10px;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .footer > div {
-    background-color: lightgray;
+    background-color: #fafafa;
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
