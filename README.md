@@ -1,6 +1,6 @@
-# week7-responsive-layout
+# page-layout-responsive-layout
 
-Доработка макета с учетом знаний об адаптивности (респонсивная)
+Refining the layout taking into account knowledge about adaptability (responsive)
 
 ## Technologies:
 
